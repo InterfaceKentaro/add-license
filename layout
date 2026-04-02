@@ -1,0 +1,17 @@
+layout {
+    cwd "/home/kenbo/proj/add-license/"
+    tab name="code" {
+        pane command="nvim" start_suspended=false
+        pane size=1 borderless=true {
+            plugin location="zellij:compact-bar"
+        }
+    }
+    tab name="run" {
+        pane command="go" start_suspended=true {
+            args "run" "add-license.go"
+        }
+        pane size=1 borderless=true {
+            plugin location="zellij:compact-bar"
+        }
+    }
+}
