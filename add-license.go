@@ -1,3 +1,5 @@
+// Copyright (C) 2026 InterfaceKentar 
+// Licensed under the GNU Public License version 3.0 or later.
 package main
 
 import (
