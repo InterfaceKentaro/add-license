@@ -1,0 +1,2 @@
+#! /usr/bin/env bash
+go run add-license.go -path ./ -license license.txt
